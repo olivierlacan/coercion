@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.homepage = 'https://github.com/tylerhunt/coercion'
   spec.license = 'MIT'
 
-  spec.add_dependency 'activerecord', '~> 4.0'
-  spec.add_dependency 'activesupport', '~> 4.0'
-  spec.add_dependency 'railties', '~> 4.0'
+  spec.add_dependency 'activerecord', '>= 4.0', '< 6'
+  spec.add_dependency 'activesupport','>= 4.0', '< 6'
+  spec.add_dependency 'railties', '>= 4.0', '< 6'
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
 
